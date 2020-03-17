@@ -1,0 +1,39 @@
+{
+  "name": "egg-eureka-pro",
+  "version": "0.0.1",
+  "description": "eureka plugin for egg",
+  "eggPlugin": {
+    "name": "eureka"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "eureka"
+  ],
+  "dependencies": {
+    "eureka-js-client": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hm496/egg-eureka-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hm496/egg-eureka-pro/issues"
+  },
+  "homepage": "https://github.com/hm496/egg-eureka-pro#readme",
+  "author": {
+    "name": "hm496",
+    "email": "hm496@163.com"
+  },
+  "license": "MIT"
+}
